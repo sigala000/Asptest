@@ -92,7 +92,7 @@ export const CandidateList = () => {
       {/* <ApplicationContainer>
         <h2>It is not yet voting time, when it is time we will notify you.</h2>
       </ApplicationContainer> */}
-      {/* <ApplicationContainer>
+      <ApplicationContainer>
         <div>
           <h2>Voting has ended ! </h2>
           <Button
@@ -108,7 +108,7 @@ export const CandidateList = () => {
           </Button>
         </div>
         <h3>When voting is over you will see the results here</h3>
-      </ApplicationContainer> */}
+      </ApplicationContainer>
       <h2>List of all Candidates</h2>
       {posts.map((post) => (
         <DisplayPost
